@@ -1,1 +1,1 @@
-Change in master branch and in new-branch
+Change in master branch
