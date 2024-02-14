@@ -1,9 +1,9 @@
 from src.api.weather_api import get_weather
 
+api_key = "b88b7e287ecb2ec96beb7e53ca0fc46b"
+cities = ["Kyiv", "Odesa", "Lviv", "Dnipro"]
 
 def main():
-    api_key = "b88b7e287ecb2ec96beb7e53ca0fc46b"
-    cities = ["Kyiv", "Odesa", "Lviv"]
 
     print("Select a city:")
     for index, city in enumerate(cities, start=1):
